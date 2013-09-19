@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "seedbank/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{seedbank}
+  s.name = %q{artemis-seedbank}
   s.version = Seedbank::VERSION
   s.date = `git log -1 --format="%cd" --date=short lib/seedbank/version.rb`
 
